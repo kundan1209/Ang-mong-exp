@@ -1,0 +1,15 @@
+###
+GET
+http://localhost:3000/
+
+###
+POST
+http://localhost:3000/add-post/
+
+Content-Type: application/json
+
+{
+  # "title": "My first post",
+  # "content": "This is my first post"
+  "data" : "My first post"
+}
