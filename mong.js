@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Connect to MongoDB (replace 'your-mongodb-url' with your actual MongoDB connection string)
-mongoose.connect('mongodb+srv://biswatosh:Biswa15@cluster0.xibsu9c.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define a schema for your blog posts
 const blogSchema = new mongoose.Schema({
