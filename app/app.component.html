@@ -1,0 +1,12 @@
+<app-todos></app-todos>
+<table >
+  <tr *ngFor="let emp of emps">
+    <td>{{emp.eid}}</td>
+    <td>{{emp.ename}}</td>
+  </tr>
+</table>
+<button (click)="sortEmployeesById()">Sort</button>
+<div *ngFor="let water of getWater()">
+    {{water}}
+</div>
+<router-outlet></router-outlet>
